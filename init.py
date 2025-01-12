@@ -4,12 +4,10 @@ import subprocess
 page = """
 <!DOCTYPE HTML>
 <html style="height: 100%" lang="zh">
-<body style="height: 100%" onclick="send();">
+<body style="height: 100%" ontouchstart="send();">
 <p style="font-size: 6em;">
 按白色處翻頁<br />
-按鍵盤上的 PageUp <br >回到上一頁<br /><br />
-注意不可連點<br />
-熒幕反應後<br />才可以再次翻頁
+按鍵盤上的 PageUp <br >回到上一頁
 </p>
 </body>
 <script>
